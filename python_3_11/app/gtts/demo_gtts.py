@@ -1,6 +1,7 @@
 from gtts import gTTS
 from playsound import playsound
 
+
 # Chuỗi văn bản bạn muốn chuyển đổi thành giọng nói
 text = "Xin chào, tôi là một phiên bản clone Text-to-Speech được thực hiện bởi nhóm 13"
 

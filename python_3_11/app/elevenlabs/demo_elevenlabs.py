@@ -5,7 +5,9 @@ from playsound import playsound
 
 # Khởi tạo client với API key của bạn, các file âm thanh được tạo sẽ được upload lên web
 # https://elevenlabs.io/app/speech-synthesis
-client = ElevenLabs(api_key="8562511af55f1ba2000e03ed2289cb78")
+your_api_key = ""
+
+client = ElevenLabs(api_key=your_api_key)
 
 
 # Văn bản muốn chuyển sang giọng nói
@@ -14,7 +16,7 @@ text_to_speech = ("Hello, I am a Text-to-Speech clone made by team 13")
 
 # Chỉnh sửa giọng nói
 voice_tts = elevenlabs.Voice(
-    voice_id="SOYHLrjzK2X1ezoPC6cr", # voice_id người đọc
+    voice_id="D38z5RcWu1voky8WS1ja", # voice_id người đọc
     settings=elevenlabs.VoiceSettings(
         # stability=0, #sự ổn định
         # similarity_boost=0.5 #trầm - cao
